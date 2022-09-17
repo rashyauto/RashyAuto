@@ -1,0 +1,44 @@
+  body {
+    background: lightblue;
+  }
+
+
+#menu-btn {
+    width: 30px;
+    float: right;
+}
+
+  #exit-btn {
+    width: 30px;
+  }
+
+  nav {
+    display: noun;
+  }
+
+.link {
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: larger;
+  color: black;
+  font-stretch: expanded;
+}
+
+.link:hover {
+  color: red;
+}
+
+/*nav {
+  display: none;
+}*/
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 300px;
+  right: 0%;
+  top: 0%;
+  background: black;
+  height: 150vh;
+  padding: 1em;
+}
